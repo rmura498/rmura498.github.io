@@ -5,32 +5,53 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h2>2025</h2>
+<hr/>
 
-{% include base_path %}
+<p>
+Mura, R., Piras, G., Lukošiūtė, K., Pintor, M., Karbasi, A., & Biggio, B. (2025). 
+<b>LatentBreak: Jailbreaking Large Language Models through Latent Space Feedback.</b> 
+arXiv:2510.08604.
+</p>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<p>
+Piras, G., Mura, R., Brau, F., Oneto, L., Roli, F., & Biggio, B. (2025). 
+<b>SOM Directions are Better than One: Multi-Directional Refusal Suppression in Language Models.</b> 
+AAAI 2026.
+</p>
 
+<p>
+Brau, F., Pintor, M., Cinà, A. E., Mura, R., Scionis, L., Oneto, L., et al. (2025). 
+<b>TransferBench: Benchmarking Ensemble-based Black-box Transfer Attacks.</b> 
+NeurIPS 2025 (Datasets and Benchmarks Track).
+</p>
 
+<p>
+Lazzaro, D., Mura, R., Ciná, A. E., Laurita, G., Vercelli, G., Oneto, L., et al. (2025). 
+<b>Poison Once, Fool Many: Practical Poisoning Attacks against Text-to-Image Retrieval Systems.</b> 
+Knowledge-Based Systems.
+</p>
 
+<p>
+Mura, R., Floris, G., Scionis, L., Piras, G., Pintor, M., Demontis, A., et al. (2025). 
+<b>HO-FMN: Hyperparameter Optimization for Fast Minimum-Norm Attacks.</b> 
+Neurocomputing, 616, 128918.
+</p>
+
+<h2>2024</h2>
+<hr/>
+
+<p>
+Su, E., Vellore, A., Chang, A., Mura, R., Nelson, B., Kassianik, P., & Karbasi, A. (2024). 
+<b>Extracting Memorized Training Data via Decomposition.</b> 
+arXiv:2409.12367.
+</p>
+
+<h2>2023</h2>
+<hr/>
+
+<p>
+Floris, G., Mura, R., Scionis, L., Piras, G., Pintor, M., Demontis, A., & Biggio, B. (2023). 
+<b>Improving Fast Minimum-Norm Attacks with Hyperparameter Optimization.</b> 
+arXiv:2310.08177.
+</p>
