@@ -23,7 +23,7 @@ repository               : "rmura498/rmura498.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile_rm.png"
+  avatar           : "profile_rm.jpg"
   name             : "Raffaele Mura"
   bio              : "PhD Student @ University of Cagliari"
   location         : "Cagliari"
