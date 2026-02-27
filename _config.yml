@@ -25,9 +25,7 @@ author:
   # Biographic information
   avatar           : "profile_rm.jpg"
   name             : "Raffaele Mura"
-  bio              : |
-    PhD Student @ University of Cagliari
-    AI Security
+  bio              : "PhD Student @ University of Cagliari"
   location         : "Cagliari"
   employer         : "University of Cagliari"
   uri              : # URL
