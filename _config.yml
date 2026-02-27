@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Raffaele Mura"
 title_separator          : "-"
 name                     : &name "Raffaele Mura"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "PhD student in Electronics and Computer Engineering working on adversarial machine learning and the security of large language models."
 url                      : https://rmura498.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -129,7 +129,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : "PASTE_YOUR_GOOGLE_SEARCH_CONSOLE_CODE_HERE"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -142,19 +142,22 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "/images/profile_rm.jpg"
+og_description           : "Raffaele Mura – Research on AI security, adversarial machine learning, and large language model robustness."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Raffaele Mura"
+  links:
+    - "https://scholar.google.com/citations?user=CukCfWgAAAAJ&hl=it"
+    - "https://orcid.org/0009-0005-8719-3048"
+    - "https://github.com/rmura498"
 
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
     tracking_id          :
 
