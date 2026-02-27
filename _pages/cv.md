@@ -31,7 +31,6 @@ CISPA Helmholtz Center for Information Security, Saarbrücken (Germany)
 Research focus: AI Security - Advised by Prof. Mario Fritz
 
 ---
----
 
 **Research Intern**  
 Cisco, San Francisco (U.S.)  
