@@ -5,7 +5,7 @@ type: "Tutorial"
 permalink: /talks/from-evasion-to-jailbreak
 venue: "TAIC - ITASEC2026"
 date: 2026-02-09
-location: "Rome, Italy"
+location: "Cagliari, Italy"
 ---
 
 Held with [Fabio Brau](https://fabiobrau.github.io/) at [TAIC](https://taicworkshop.github.io/) - ITASEC2026.
