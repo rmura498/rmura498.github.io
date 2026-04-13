@@ -36,6 +36,8 @@ $sidebar-screen-min-width   : 1024px;
 :root {
     --global-base-color                 : #{$primary-color};
     --global-bg-color                   : #{$background};
+    --global-surface-color              : rgba(247, 247, 242, 0.78);
+    --global-masthead-bg-color          : rgba(233, 237, 232, 0.94);
     --global-footer-bg-color            : #{$surface-muted};
     --global-border-color               : #cbd5ce;
     --global-dark-border-color          : #9eaba4;

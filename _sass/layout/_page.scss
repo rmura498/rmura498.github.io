@@ -442,7 +442,7 @@
   padding: 0.9rem;
   border: 1px solid var(--global-border-color);
   border-radius: 8px;
-  background: rgba(251, 251, 247, 0.72);
+  background: var(--global-surface-color);
 
   & + .news-item {
     margin-top: 0.65rem;
@@ -484,7 +484,7 @@
   margin-bottom: 1rem;
   border: 1px solid var(--global-border-color);
   border-radius: 8px;
-  background: rgba(251, 251, 247, 0.72);
+  background: var(--global-surface-color);
   overflow: hidden;
 
   summary {
@@ -528,7 +528,7 @@
   border: 1px solid var(--global-border-color);
   border-left: 3px solid var(--global-link-color);
   border-radius: 8px;
-  background: rgba(251, 251, 247, 0.72);
+  background: var(--global-surface-color);
 
   h2 {
     margin: 0 0 0.45rem;

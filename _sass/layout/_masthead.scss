@@ -4,7 +4,7 @@
 
 .masthead {
   position: fixed;
-  background: rgba(233, 237, 232, 0.94);
+  background: var(--global-masthead-bg-color);
   height: fit-content;
   top: 0;
   width: 100%;
