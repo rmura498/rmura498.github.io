@@ -15,7 +15,7 @@ author_profile: true
       <article class="cv-entry">
         <div class="cv-when">2026-present</div>
         <div class="cv-details">
-          <h3>Visiting Researcher</h3>
+          <h3>Visiting PhD</h3>
           <p class="cv-place">ELLIS Institute Tübingen</p>
           <p>AI Safety and Alignment research under the supervision of Maksym Andriushchenko.</p>
         </div>

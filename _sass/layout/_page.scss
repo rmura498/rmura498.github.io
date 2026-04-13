@@ -35,8 +35,21 @@
 }
 
 .page__title {
+  position: relative;
   margin-top: 0;
-  line-height: 1;
+  margin-bottom: 1.1rem;
+  font-family: $sans-serif;
+  line-height: 1.05;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 3.5rem;
+    height: 3px;
+    margin-top: 0.7rem;
+    border-radius: 8px;
+    background: var(--global-link-color);
+  }
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -51,8 +64,21 @@
 .page__content {
 
   h2 {
-    padding-bottom: 0.5em;
-    border-bottom: 1px solid var(--global-border-color);
+    position: relative;
+    margin-top: 1.65em;
+    padding-bottom: 0.35em;
+    border-bottom: 0;
+    font-family: $sans-serif;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 3rem;
+      height: 3px;
+      margin-top: 0.45rem;
+      border-radius: 8px;
+      background: var(--global-link-color);
+    }
   }
 
   p, li, dl {
@@ -405,7 +431,7 @@
    ========================================================================== */
 
 .news-list {
-  margin: 1em 0 2em;
+  margin: 0.8em 0 2em;
   font-size: 0.82em;
 }
 
@@ -413,11 +439,12 @@
   display: grid;
   grid-template-columns: minmax(7.5rem, 0.32fr) 1fr;
   gap: 0.85rem;
-  padding: 0.8rem 0;
-  border-bottom: 1px solid var(--global-border-color);
+  padding: 0.9rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 8px;
 
-  &:first-child {
-    border-top: 1px solid var(--global-border-color);
+  & + .news-item {
+    margin-top: 0.65rem;
   }
 }
 
@@ -432,8 +459,8 @@
 
 .news-body {
   position: relative;
-  padding-left: 1rem;
-  border-left: 3px solid var(--global-link-color);
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--global-link-color);
 
   h3 {
     margin: 0 0 0.25rem;
@@ -467,6 +494,7 @@
     font-weight: 700;
     cursor: pointer;
     list-style: none;
+    transition: background-color 0.15s ease;
 
     &::-webkit-details-marker {
       display: none;
@@ -476,6 +504,10 @@
       content: "+";
       color: var(--global-text-color-light);
       font-weight: 700;
+    }
+
+    &:hover {
+      background: var(--global-code-background-color);
     }
   }
 
@@ -490,8 +522,10 @@
 
 .mlsec-seminars {
   margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--global-border-color);
+  padding: 1rem;
+  border: 1px solid var(--global-border-color);
+  border-left: 3px solid var(--global-link-color);
+  border-radius: 8px;
 
   h2 {
     margin: 0 0 0.45rem;
@@ -499,6 +533,10 @@
     border-bottom: 0;
     font-family: $sans-serif;
     font-size: $type-size-5;
+
+    &::after {
+      display: none;
+    }
   }
 
   p {
@@ -522,6 +560,10 @@
     font-size: $type-size-7;
     font-weight: 700;
     text-decoration: none !important;
+
+    &:hover {
+      border-color: var(--global-link-color);
+    }
   }
 }
 
