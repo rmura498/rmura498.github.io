@@ -11,5 +11,12 @@ I am a PhD student in Electronics and Computer Engineering at the University of 
 
 ## News
 
-**February 2026**  
-Starting next month I will be joining the ELLIS Institute Tübingen, working on AI Safety and Alignment under the supervision of Maksym Andriushchenko.
+<div class="news-list">
+  <article class="news-item">
+    <time class="news-date" datetime="2026-02">February 2026</time>
+    <div class="news-body">
+      <h3>ELLIS Institute Tübingen</h3>
+      <p>Starting next month I will be joining the ELLIS Institute Tübingen, working on AI Safety and Alignment under the supervision of Maksym Andriushchenko.</p>
+    </div>
+  </article>
+</div>
