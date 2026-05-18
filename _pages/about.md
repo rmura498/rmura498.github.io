@@ -13,6 +13,14 @@ I am a PhD student in Electronics and Computer Engineering at the University of 
 
 <div class="news-list">
   <article class="news-item">
+    <time class="news-date" datetime="2026-05">May 2026</time>
+    <div class="news-body">
+      <h3>Best Poster Award at ELSA</h3>
+      <p>Our paper “SOM Directions are Better than One: Multi-Directional Refusal Suppression in Language Models” received the <a href="https://www.linkedin.com/posts/elsa-european-lighthouse-on-secure-and-safe-ai_31-speakers-16-pitches-3-awards-2-workshops-activity-7459594069015576576-L9Xe">Best Poster Award</a> at the Final ELSA General Assembly 2026.</p>
+    </div>
+  </article>
+
+  <article class="news-item">
     <time class="news-date" datetime="2026-02">February 2026</time>
     <div class="news-body">
       <h3>ELLIS Institute Tübingen</h3>
